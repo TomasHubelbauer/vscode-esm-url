@@ -52,3 +52,9 @@ extension fills the void until that is resolved. You can follow the progress
 along here:
 
 https://github.com/microsoft/TypeScript/issues/41730
+
+## To-Do
+
+### Add a GitHub Actions workflow to package the VSIX and release it to GitHub Releases
+
+Maybe automate pushing to the Marketplace as well.
