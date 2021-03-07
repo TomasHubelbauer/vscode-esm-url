@@ -45,6 +45,22 @@ vsce package
 # vscode-esm-url-${version}.vsix
 ```
 
+## Development
+
+This extension is just a super thing shell around the TS Server plugin repository:
+
+```json
+"contributes": {
+  "typescriptServerPlugins": [
+    {
+      "name": "tsserver-esm-url"
+    }
+  ]
+}
+```
+
+https://github.com/tomashubelbauer/tsserver-esm-url
+
 ## Purpose
 
 Proper ESM URL support in TypeScript is probably months if not years away, this
