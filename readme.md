@@ -6,7 +6,7 @@ parts in the ESM `import` statements. Relative local file paths which include
 module name resolution, resulting in the language service being able to trace
 and infer types through module boundaries such as these:
 
-`index.js`:
+`index.js`
 ```javascript
 // Click through `mod` or `mod.js` and see that it correctly jumps to `mod.js`
 import mod from './mod.js?arg';
