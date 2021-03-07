@@ -47,11 +47,11 @@ vsce package
 
 ## Credits
 
-The insight and code that makes this extension work was all provided by Kevin
-Ramharak ([@kevinramharak](https://github.com/kevinramharak)) vis consulting him
+The insight and code that makes this extension work was all provided by [Kevin
+Ramharak @kevinramharak](https://github.com/kevinramharak) via consulting him
 for advice on the [TypeScript Discord](https://discord.com/invite/typescript).
 
-Without him, this extension would not exist. All credit goes to him.
+Without him, this extension would not exist. All credit goes to him. Thank you.
 
 ## Development
 
