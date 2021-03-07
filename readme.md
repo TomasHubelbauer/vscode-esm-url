@@ -29,3 +29,15 @@ extension fills the void until that is resolved. You can follow the progress
 along here:
 
 https://github.com/microsoft/TypeScript/issues/41730
+
+## Installation
+
+This extension is not in the VS Code Marketplace yet. To install it, clone this
+repository, set up and run `vsce login` and then run `vsce package`.
+
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension#publishing-extensions
+
+A VSIX file named `vscode-esm-url-0.0.1.vsix` will be spat out. Install this
+VSIX file into your VS Code installation.
+
+https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix
