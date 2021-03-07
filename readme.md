@@ -1,5 +1,7 @@
 # VS Code ESM URL
 
+![](icon.png)
+
 This extension installs a TS Server plugin which adds partial support for URL
 parts in the ESM `import` statements. Relative local file paths which include
 `?search` or `#fragment` bits will have those stripped for the purposes of
