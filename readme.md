@@ -55,7 +55,7 @@ Without him, this extension would not exist. All credit goes to him. Thank you.
 
 ## Development
 
-This extension is just a super thing shell around the TS Server plugin repository:
+This extension is just a super thin shell around the TS Server plugin repository:
 
 ```json
 "contributes": {
