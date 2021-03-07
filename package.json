@@ -4,7 +4,7 @@
   "description": "Add support for ?search and #fragment into relative local path ESM imports",
   "publisher": "TomasHubelbauer",
   "repository": "https://github.com/tomashubelbauer/vscode-esm-url",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "icon": "icon.png",
   "engines": {
