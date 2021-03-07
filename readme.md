@@ -45,6 +45,14 @@ vsce package
 # vscode-esm-url-${version}.vsix
 ```
 
+## Credits
+
+The insight and code that makes this extension work was all provided by Kevin
+Ramharak ([@kevinramharak](https://github.com/kevinramharak)) vis consulting him
+for advice on the [TypeScript Discord](https://discord.com/invite/typescript).
+
+Without him, this extension would not exist. All credit goes to him.
+
 ## Development
 
 This extension is just a super thing shell around the TS Server plugin repository:
