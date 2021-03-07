@@ -1,48 +1,39 @@
 {
   "name": "vscode-esm-url",
-  "displayName": "vscode-esm-url",
-  "description": "",
+  "displayName": "ESM URL",
+  "description": "Add support for ?search and #fragment into relative local path ESM imports",
   "publisher": "TomasHubelbauer",
+  "repository": "https://github.com/tomashubelbauer/vscode-esm-url",
   "version": "0.0.1",
+  "license": "MIT",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.54.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages",
+    "Linters",
+    "Formatters",
+    "Language Packs"
   ],
-  "activationEvents": [
-    "onCommand:vscode-esm-url.helloWorld"
+  "keywords": [
+    "esm",
+    "import",
+    "export",
+    "url",
+    "esmodules",
+    "es-modules",
+    "search",
+    "fragment"
   ],
-  "main": "./extension.js",
   "contributes": {
     "typescriptServerPlugins": [
       {
         "name": "tsserver-esm-url"
       }
-    ],
-    "commands": [
-      {
-        "command": "vscode-esm-url.helloWorld",
-        "title": "Hello World"
-      }
     ]
   },
-  "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "node ./test/runTest.js"
-  },
-  "devDependencies": {
-    "@types/glob": "^7.1.3",
-    "@types/mocha": "^8.0.4",
-    "@types/node": "^12.11.7",
-    "@types/vscode": "^1.54.0",
-    "eslint": "^7.19.0",
-    "glob": "^7.1.6",
-    "mocha": "^8.2.1",
-    "typescript": "^4.1.3",
-    "vscode-test": "^1.5.0"
-  },
+  "devDependencies": {},
   "dependencies": {
     "tsserver-esm-url": "github:tomashubelbauer/tsserver-esm-url"
   }
